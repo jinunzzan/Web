@@ -43,8 +43,20 @@ class ViewController: UIViewController, WKNavigationDelegate {
             myActivityIndicator.stopAnimating()
             myActivityIndicator.isHidden = true
         }
+    //html:// 문자열 삽입
+    func checkUrl(_ url:String) -> String {
+        var strUrl = url
+        let flag = strUrl.hasPrefix("http://")
+        if !flag {
+            strUrl = "http://" + strUrl
+        }
+        return strUrl
+    }
         
         @IBAction func btnGotoUrl(_ sender: UIButton) {
+            let myUrl = checkUrl(txtUrl.text!)
+            txtUrl.text = ""
+            loadWebPage(myUrl)
             
         }
         
