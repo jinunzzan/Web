@@ -13,6 +13,7 @@
 		5997D3D52962C477005CB4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997D3D32962C477005CB4BA /* Main.storyboard */; };
 		5997D3D72962C478005CB4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5997D3D62962C478005CB4BA /* Assets.xcassets */; };
 		5997D3DA2962C478005CB4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5997D3D82962C478005CB4BA /* LaunchScreen.storyboard */; };
+		5997D3E22962D057005CB4BA /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = 5997D3E12962D057005CB4BA /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5997D3D62962C478005CB4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5997D3D92962C478005CB4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5997D3DB2962C478005CB4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5997D3E12962D057005CB4BA /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5997D3CD2962C477005CB4BA /* AppDelegate.swift */,
 				5997D3CF2962C477005CB4BA /* SceneDelegate.swift */,
 				5997D3D12962C477005CB4BA /* ViewController.swift */,
+				5997D3E12962D057005CB4BA /* htmlView.html */,
 				5997D3D32962C477005CB4BA /* Main.storyboard */,
 				5997D3D62962C478005CB4BA /* Assets.xcassets */,
 				5997D3D82962C478005CB4BA /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5997D3E22962D057005CB4BA /* htmlView.html in Resources */,
 				5997D3DA2962C478005CB4BA /* LaunchScreen.storyboard in Resources */,
 				5997D3D72962C478005CB4BA /* Assets.xcassets in Resources */,
 				5997D3D52962C477005CB4BA /* Main.storyboard in Resources */,

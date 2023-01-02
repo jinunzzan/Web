@@ -57,10 +57,16 @@ class ViewController: UIViewController, WKNavigationDelegate {
         }
         
         @IBAction func btnLoadHtmlString(_ sender: UIButton) {
+            let htmlString = "<h1> HTML String </h1><p> String 변수를 이용한 웹 페이지</p><p><a href=\"https://github.com/jinunzzan\">네이버 블로그</a>으로 이동</p>"
+            myWebView.loadHTMLString(htmlString, baseURL: nil)
             
         }
         
         @IBAction func btnLoadHtmlFile(_ sender: UIButton) {
+            let filePath = Bundle.main.path(forResource: "htmlView", ofType: "html")
+            let myUrl = URL(fileURLWithPath: filePath!)
+            let myRequest = URLRequest(url: myUrl)
+            myWebView.load(myRequest)
         }
         
         //툴바버튼
